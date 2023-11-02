@@ -13,7 +13,7 @@ export default async function HomePage() {
   const users = await getUsers();
   console.log(users);
   return (
-    <main className="">
+    <main>
        <Home users={users}/>
     </main>
   )
